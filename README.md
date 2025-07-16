@@ -1,12 +1,94 @@
-# React + Vite
+# 🖼️ Meme Generator (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive Meme Generator app built using **React** and **Vite**.  
+Users can add custom top and bottom text and generate random meme templates using the Imgflip API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✏️ Add top and bottom text to memes  
+- 🔁 Generate random meme templates  
+- ⚛️ Built using React hooks (`useState`, `useEffect`)  
+- 🌐 Fetch meme templates from the Imgflip API  
+- ⚡ Fast development and build with Vite  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Getting Started
+
+This project was bootstrapped using **Vite**.
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── Header.jsx       # Top banner with logo/title
+│   └── Content.jsx      # Handles meme text & image logic
+├── App.jsx              # Root component
+├── App.css              # Global styling
+├── main.jsx             # Entry point (Vite)
+└── assets/              # (optional) Local images
+```
+
+---
+
+## 🔧 Installation
+
+### Prerequisites
+- [Node.js](https://nodejs.org/en/) (v14+ recommended)
+- npm or yarn
+
+### Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/meme-generator.git
+cd meme-generator
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Once running, open your browser to:  
+👉 **http://localhost:5173**
+
+---
+
+## 🌐 API Used
+
+- [Imgflip Meme API](https://api.imgflip.com/)
+
+---
+
+## 🧪 Tech Stack
+
+- React (with Hooks)
+- Vite (for fast dev and builds)
+- Plain CSS
+
+---
+
+## 📸 Preview
+
+![Meme Screenshot](https://i.imgflip.com/1bij.jpg)
+
+---
+
+## 📄 License
+
+MIT License — free to use, modify, and share.
+
+---
+
+## 🙌 Acknowledgements
+
+- [Imgflip](https://imgflip.com/)
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
