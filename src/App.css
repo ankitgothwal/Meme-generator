@@ -1,0 +1,88 @@
+/* App.css */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #7c3aed; /* Tailwind-like purple */
+  color: white;
+  padding: 16px 24px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-right: 16px;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* App.css */
+.content-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.inputs input {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  font-size: 1rem;
+}
+
+.meme {
+  position: relative;
+  display: inline-block;
+}
+
+.meme-img {
+  width: 400px;
+  max-width: 90vw;
+  border-radius: 8px;
+}
+
+.meme-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+  width: 90%;
+  word-wrap: break-word;
+  padding: 0 10px;
+}
+
+.top {
+  top: 10px;
+}
+
+.bottom {
+  bottom: 10px;
+}
+
+.generate-btn {
+  padding: 10px 20px;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.generate-btn:hover {
+  background-color: #5b21b6;
+}
