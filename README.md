@@ -77,7 +77,7 @@ Once running, open your browser to:
 
 ## 📸 Preview
 
-![Meme Screenshot](https://i.imgflip.com/1bij.jpg)
+![Meme Screenshot](https://github.com/ankitgothwal/Meme-generator/blob/main/src/assets/Screenshot%202025-07-16%20233538.png)
 
 ---
 
